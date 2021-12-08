@@ -1,0 +1,33 @@
+.btn-payment{
+    float: right;
+    margin-left: -50%;
+    margin-top: -1em;
+}
+
+.table-payment{
+    margin-top: 2rem;
+
+    &__row-title{
+        background: rgba(120, 130, 140, 0.13);
+    }
+
+    &__row-title-each{
+        font-family: $font-family-secondary;
+        font-size: 1rem;
+        font-color: black;
+    }
+
+    &__row-total{
+        background: rgba(120, 130, 140, 0.13);
+    }
+
+    &__total{
+        font-family: $font-family-secondary;
+        font-size: 1rem;
+    }
+
+    &__total-amount{
+        font-family: $font-family-secondary;
+        font-size: 1rem;
+    }
+}

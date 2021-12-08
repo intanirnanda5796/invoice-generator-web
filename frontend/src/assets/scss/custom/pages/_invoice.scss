@@ -1,0 +1,96 @@
+.invoice-breadcrumb{
+    margin-top: .8rem;
+}
+
+.detail-seller{
+    &__name-seller{
+        font-family: $font-family-secondary;   
+    }
+
+    &__email-seller{
+        color: $card-title-desc;
+        font-family: $font-family-secondary;
+        margin-top: 1rem;
+    }
+
+    &__address-seller{
+        color: $card-title-desc;
+        font-family: $font-family-secondary; 
+        margin-top: -0.8rem;
+    }
+
+}
+
+.detail-invoice{
+    text-align: right;
+    font-family: $font-family-secondary; 
+
+    &__invoice-number{
+        font-family: $font-family-secondary; 
+    }
+
+    &__payment-due{
+        font-family: $font-family-secondary; 
+        color: $card-title-desc;
+        margin-top: 1rem;
+    }
+
+}
+
+.client{
+    margin-top: 2rem;
+}
+
+.detail-client{
+    &__name-client{
+        font-family: $font-family-secondary;   
+    }
+
+    &__email-client{
+        color: $card-title-desc;
+        font-family: $font-family-secondary;
+        margin-top: 1rem;
+    }
+
+    &__address-client{
+        color: $card-title-desc;
+        font-family: $font-family-secondary; 
+        margin-top: -0.8rem;
+    }
+}
+
+.detail-note{
+    &__note-desc{
+        color: $card-title-desc;
+        font-family: $font-family-secondary;
+        margin-top: 1rem;
+    }
+}
+
+.table-product{
+    margin-top: 1rem;
+
+    &__row-title{
+        background: rgba(120, 130, 140, 0.13);
+    }
+
+    &__row-title-each{
+        font-family: $font-family-secondary;
+        font-size: 1rem;
+        font-color: black;
+    }
+
+    &__row-total{
+        background: rgba(120, 130, 140, 0.13);
+    }
+
+    &__total{
+        font-family: $font-family-secondary;
+        font-size: 1rem;
+    }
+
+    &__total-amount{
+        font-family: $font-family-secondary;
+        font-size: 1rem;
+    }
+}

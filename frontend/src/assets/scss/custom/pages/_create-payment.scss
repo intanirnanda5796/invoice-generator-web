@@ -1,0 +1,26 @@
+.payment-input{
+    margin-top: 2rem;
+}
+
+.btn-submit{
+    float: right;
+    margin-left: -50%;
+}
+
+.payment-form{
+    &__product-input{
+        margin-bottom: 0.2rem;
+    }
+    &__product-detail{
+        margin-bottom: 0.2rem;
+    }
+}
+
+.btn-add{
+    width: 100px;
+    float: right;
+}
+
+.btn-remove{
+    margin-top: .5rem;
+}

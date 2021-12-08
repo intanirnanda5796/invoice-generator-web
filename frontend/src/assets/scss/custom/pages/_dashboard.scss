@@ -1,0 +1,13 @@
+.dashboard-admin{
+    &__username{
+        color: $card-title-desc;
+        font-family: $font-family-secondary;
+        font-size: 1rem;
+    }
+
+    &__greeting{
+        color: $sidebar-menu-item-hover-color;
+        font-family: $font-family-secondary;
+        text-align: center;
+    }
+}

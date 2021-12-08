@@ -1,0 +1,29 @@
+//Fonts
+@import "custom/fonts/fonts";
+
+//Core files
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "variables";
+@import "./node_modules/bootstrap/scss/mixins.scss";
+
+// Structure
+@import "custom/structure/topbar";
+@import "custom/structure/page-head";
+@import "custom/structure/footer";
+@import "custom/structure/vertical";
+@import "custom/structure/horizontal-nav";
+@import "custom/structure/layouts";
+
+// Components
+@import "custom/components/waves";
+@import "custom/components/helper";
+@import "custom/components/forms";
+@import "custom/components/header";
+
+// Pages
+@import "custom/pages/authentication";
+@import "custom/pages/invoice";
+@import "custom/pages/payment";
+@import "custom/pages/create-payment";
+@import "custom/pages/dashboard";
